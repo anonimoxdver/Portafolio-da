@@ -1,0 +1,45 @@
+.gmail {
+    position: absolute; 
+    width: 35px;
+    bottom: 14%;
+}
+
+.phone {
+    position: absolute; 
+    width: 35px;
+    bottom: 40%;
+}
+
+.numero {
+    margin-left: 13%;
+    font-weight: bold;
+    
+}
+
+.gmailc {
+    margin-left: 13%;
+    font-weight: bold;
+  
+    
+
+}
+.contac {
+    position: absolute;
+    top: 72%;
+    width: 390px;
+    height: 160px;
+    
+    left: 23%;
+  }
+  
+
+@media screen and (max-width: 1110px){
+    .contac {
+        top: 1600px;
+        left: 13%;
+        width: 330px;
+    }
+    .gmailc {
+        font-size: 14px;
+    }
+}

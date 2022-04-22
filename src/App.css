@@ -1,0 +1,436 @@
+.Photo_main{
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650163147/porfolio/layered-waves-haikei_2_lafzwr.png');
+  width: 100vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 300px 100vh;  
+position: static;
+ 
+}
+
+body {
+
+  max-height: 100vh;
+  max-height: 100vh;
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650163152/porfolio/stacked-waves-haikei_2_cxdhvq.png');
+  background-size: 100vmax 100vh; 
+  background-repeat: no-repeat;
+}
+
+.front {
+  position: absolute;
+  left: 23%;
+  top: 10%;
+}
+.name {
+  position: absolute;
+  left: 23%;
+  font-size: 40px;
+  text-shadow: 
+    -1px -1px 0 gray,
+    1px -1px 0 gray,
+    1px 1px 0 gray,
+    -1px 1px 0 gray;
+
+}
+.photo{ 
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-left: 50px;
+  margin-top: 50px;
+
+}
+.descripcion {
+  position: absolute;
+  top: 16%;
+  color: rgb(0, 0, 0, 1);
+  left: 23%;
+  overflow: hidden;
+  width: 400px;
+  font-size: 13px;
+  line-height: 22px;
+
+}
+
+.title-content {
+  display: block;
+  opacity: 0;
+  animation: revealText .5s forwards;
+}
+.title-secont {
+  animation-delay: .175s;
+}
+.title-third {
+  animation-delay: .25s;
+}
+.title-fourth {
+  animation-delay: .325s;
+}
+@keyframes revealText {
+  from {
+    transform: translateY(22px);
+
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.tecnologias {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+}
+.proyectos {
+  position: absolute;
+  bottom: 59%;
+  left: 54%;
+  
+
+}
+
+.menu {
+  display: none;
+}
+
+.icons {
+  margin-left: 20%;
+  
+  
+}
+
+
+.linkedin {
+  width: 50px;
+
+ 
+ 
+}
+
+.github {
+  width: 50px;
+
+}
+
+
+
+.example-container div {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: calc(64% - 150px / 2);
+  left: calc(30% - 150px / 2);
+  background-size: 80px 80px;
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650032364/porfolio/menu-regular-24_l42ovc.png');
+  background-repeat: no-repeat;
+}
+.example-container .html{
+  top: calc(53% - 150px / 2);
+  left: calc(29% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218351/porfolio/bxl-html5_1_lkla7e.svg');
+}
+.example-container .css{
+  top: calc(53% - 150px / 2);
+  left: calc(36% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218203/porfolio/bxl-css3_nzinlm.svg');
+}
+.example-container .java{
+  top: calc(53% - 150px / 2);
+  left: calc(43% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218025/porfolio/bxl-javascript_p27i5u.svg');
+}
+
+.example-container .react{
+  top: calc(68% - 150px / 2);
+  left: calc(29% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218149/porfolio/bxl-react_z8xv4k.svg');
+}
+.example-container .type{
+  border-radius: 1px;
+  width: 60px;
+  height: 60px;
+  top: calc(55% - 150px / 2);
+  left: calc(50% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218585/porfolio/TypeScript-Alt_v1vccu.svg');
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.example-container .node{
+  top: calc(68% - 150px / 2);
+  left: calc(36% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218751/porfolio/bxl-nodejs_bxgyvm.svg');
+}
+
+.example-container .mongo{
+  top: calc(68% - 150px / 2);
+  left: calc(43% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218895/porfolio/bxl-mongodb_w13vyd.svg');
+}
+
+.example-container .git{
+  top: calc(68% - 150px / 2);
+  left: calc(49% - 150px / 2);
+  background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650219557/porfolio/bxl-git_l4hjid.svg');
+}
+
+
+
+
+.example-container .drag-area {
+  opacity: 0.2;
+  background: white;
+  
+  width: 380px;
+  height: 200px;
+
+  border-radius: 15px;
+  top: calc(64% - 150px);
+  left: calc(34% - 150px);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .example-container .html{
+    top: calc(69% - 150px / 2);
+    left: calc(31% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218351/porfolio/bxl-html5_1_lkla7e.svg');
+  }
+  .example-container .css{
+    top: calc(69% - 150px / 2);
+    left: calc(50% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218203/porfolio/bxl-css3_nzinlm.svg');
+  }
+  .example-container .java{
+    top: calc(69% - 150px / 2);
+    left: calc(71% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218025/porfolio/bxl-javascript_p27i5u.svg');
+  }
+  
+  .example-container .react{
+    top: calc(83% - 150px / 2);
+    left: calc(51% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218149/porfolio/bxl-react_z8xv4k.svg');
+  }
+  .example-container .type{
+    border-radius: 1px;
+    width: 64px;
+    height: 63px;
+    top: calc(85% - 150px / 2);
+    left: calc(35% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218585/porfolio/TypeScript-Alt_v1vccu.svg');
+    background-repeat: no-repeat;
+    background-size: 64px 63px;
+  }
+  
+  .example-container .node{
+    top: calc(83% - 150px / 2);
+    left: calc(71% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218751/porfolio/bxl-nodejs_bxgyvm.svg');
+  }
+  
+  .example-container .mongo{
+    top: calc(96% - 150px / 2);
+    left: calc(30% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650218895/porfolio/bxl-mongodb_w13vyd.svg');
+  }
+  
+  .example-container .git{
+    top: calc(96% - 150px / 2);
+    left: calc(51% - 150px / 2);
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650219557/porfolio/bxl-git_l4hjid.svg');
+  }
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1110px) {
+
+  body {
+      background-size: 100%  1800px; 
+    width: 100%;
+  
+   height: 1800px;
+   background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650163152/porfolio/stacked-waves-haikei_2_cxdhvq.png');
+   background-repeat: no-repeat;
+  }
+
+  .app_main {
+    background-image: 0px 0px;
+    width: 0%;
+  }
+  .Photo_main{
+    transition: 0.5s ease-in-out;
+    transform: translateX(-300px);
+    height: 1490px;
+    width: 350px;
+   
+      background-size: 280px 100vh; 
+      z-index: 100;
+     
+      
+  }
+
+  .line {
+    height: 3px;
+    background-color: #fff;
+    top: 1580px;
+    width: 100%;
+    position: absolute;
+  }
+  .descripcion{
+    top: 21%;
+    left: 13%;
+    width: 270px;
+  }
+  .name{
+    top: 3%;
+    left: 13%;
+    width: 270px;
+  }
+
+  .menu {
+    display: inline-flex;
+    width: 40px;
+    position: fixed;
+    background: #fff;
+    left: 5px;
+    top: 5px;
+    z-index: 300;
+    border-radius: 7px;
+   cursor: pointer;
+  }
+
+  .proyectos {
+    top: 115%;
+    left: 13%;
+    scroll-padding-top: 50px;
+  }
+  
+  .active {
+    transform: translateX(0px);
+    transition: 0.5s ease-in-out;
+    position: fixed;
+    z-index: 200;
+    display: inline-flex;
+  }
+
+  .icons {
+    position: absolute;
+    top: 17%;
+    left: 15%;
+  }
+  .buttoncv {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 3px solid 
+    #3c67e3;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 17%;
+  }
+  
+  .buttoncv:hover {
+    animation: pulsate 1s
+    ease-in-out;
+  
+  
+  }
+  
+  @keyframes pulsate {
+    0% {
+      box-shadow: 
+      0 0 25px #5ddcff,
+      0 0 50px #4e00c2;
+      ;
+    }
+  }
+  .front {
+    top: 20%;
+    left: 13%;
+  }
+
+  .tecnologias{
+    top: 56%;
+    left: 13%;
+  }
+  .descripcion {
+    top: 26%;
+  }
+
+  .example-container .drag-area {
+    opacity: 0.2;
+    background: white;
+    
+    width: 250px;
+    height: 270px;
+    z-index: 1;
+    border-radius: 15px;
+    top: calc(80% - 150px);
+    left: calc(10%);
+   
+  }
+
+  .example-container div {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin-top: 19%;
+    z-index: 2;
+    top: calc(100% - 150px / 2);
+    left: calc(30% - 150px / 2);
+    background-size: 90px 90px;
+    background-image: url('https://res.cloudinary.com/dsii7wbi4/image/upload/v1650032364/porfolio/menu-regular-24_l42ovc.png');
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+.buttoncv {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border: 3px solid 
+  #3c67e3;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+.buttoncv:hover {
+  animation: pulsate 1s
+  ease-in-out;
+
+
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 
+    0 0 25px #5ddcff,
+    0 0 50px #4e00c2;
+    ;
+  }
+}
+
