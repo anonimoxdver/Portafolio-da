@@ -18,8 +18,8 @@ export const Page = () => {
             <h3 className='descripcion'>
               <span className="title-content">Desarrollador de software con experiencia en desarrollo web. </span>
               <span className="title-content title-secont">interesado en la optimización del producto, uso de buenas </span>
-              <span className="title-content title-third">practicas en codigo, resposabilidad y trabajo en equipo, </span>
-              <span className="title-content title-fourth">interesado en aprender cada día más sobre el desarrollo web.</span>   
+              <span className="title-content title-third">practicas en codigo, resposabilidad y trabajo en equipo. </span>
+              <span className="title-content title-fourth">Interesado en aprender cada día más sobre el desarrollo web.</span>   
             </h3>
           
             <img 
